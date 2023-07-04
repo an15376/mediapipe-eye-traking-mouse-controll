@@ -142,8 +142,6 @@ def init_eye_pos(results, frame):
     right_center_x = int(landmarks[0].x * screen_w)
     right_center_y = int(landmarks[0].y * screen_h)
 
-    print("Right : ", landmarks[0].x, landmarks[0].y)
-
     Cx = (right_center_x + left_center_x) / 2
     Cy = (right_center_y + left_center_y) / 2
 
